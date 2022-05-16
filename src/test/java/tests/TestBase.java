@@ -45,6 +45,7 @@ public class TestBase {
         AllureAttachments.pageSource();
         AllureAttachments.browserConsoleLogs();
         AllureAttachments.addVideo();
+        Selenide.closeWebDriver();
     }
 
 
